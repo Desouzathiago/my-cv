@@ -1,0 +1,26 @@
+body {
+    text-decoration: center;
+    color: black;
+}
+.corpo{
+    display:grid;
+    grid-template-columns: 30% 50%;
+    max-width: 960px;
+    margin: 0 auto;
+    grid-row-gap: 10px;
+}
+.corpo div {
+    background-color: red;
+    padding: 30px
+}
+.corpo div:nth-child(even){
+    background-color: blue;
+}
+.circle{
+    border-radius: 50%;
+    background: red;
+    width: 95px;
+    height: 95px;
+    right:29%;
+    position: absolute;
+}
